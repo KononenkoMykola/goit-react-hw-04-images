@@ -46,6 +46,8 @@ const Modal = ({ modalData, onClose }) => {
   );
 };
 
+
+
 Modal.propTypes = {
   onClose: PropTypes.func.isRequired,
 };

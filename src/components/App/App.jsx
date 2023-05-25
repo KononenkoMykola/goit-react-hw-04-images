@@ -28,7 +28,6 @@ const App = () => {
   };
 
   useEffect(() => {
-   
 
     if (!query) {
       return;
@@ -63,7 +62,6 @@ const App = () => {
       .finally(() => setLoading(false));
   }, [page, query]);
 
-
   return (
     <div className={css.App}>
       {/* ---------Searchbar------------- */}
@@ -84,4 +82,6 @@ const App = () => {
 };
 
 export default App;
+
+
 
